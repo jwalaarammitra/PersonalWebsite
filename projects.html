@@ -13,6 +13,18 @@
   border-radius: 50%;
   padding-left: 400px;
 }
+    
+    .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
   </style>
 
   <title>Jwala Mitra</title>
@@ -42,8 +54,19 @@
   </center>
 
 <br>
+
+<div class="row">
+  <div class="column">
+    <img src="caterpillarrobot.jpg" alt="caterpillar robot" style="width:100%">
+    </div>
+  <div class="column">
+    <img src="stanfordwebplatform" alt="Stanford web platform" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="sdf.jpg" alt="santé de femme" style="width:100%">
+  </div>
+</div>
     
-    <img src="caterpillarrobot.jpg" alt="caterpillar robot" width="300" height="300">
     <p style="padding-left: 400px">2018: At the Summer Internship Program at UC Santa Cruz, I created robots to mimic caterpiallar swarm behavior with my team.
       I used Arduino and Autodesk Fusion 360 CAD and performed sensor testing and data anlysis. I was fortunate to have the opportunity to present my
 research at the Sigma Xi Student Research Conference in San Francisco.</p>
